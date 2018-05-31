@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+
+before_install:
+    - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+    - sudo apt-get install -y nodejs
+    - sudo apt-get install -y build-essential
+    - npm install -g grunt-cli
+    - npm install
+    - grunt
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    local_dir: default
+    github_token: $GITHUB_TOKEN
+    keep-history: false
+    target-branch: dist
+    on:
+        branch: src
