@@ -8,13 +8,11 @@ before_install:
     - npm install -g grunt-cli
     - npm install
     - grunt
-    - mkdir deploy
-    - mv default deploy
 
 deploy:
     provider: pages
     skip_cleanup: true
-    local_dir: deploy
+    local_dir: default
     github_token: $GITHUB_TOKEN
     keep-history: false
     target-branch: dist
