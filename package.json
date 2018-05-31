@@ -1,0 +1,44 @@
+{
+    "name": "sbpp-default-theme",
+    "description": "Default Theme / Theming framework for SourceBans++",
+    "version": "1.0.0",
+    "license": "AGPL-3.0",
+    "homepage": "https://sbpp.github.io",
+    "keywords": [],
+    "author": {
+        "name": "Marvin Lukaschek",
+        "email": "groruk@uberdoge.network",
+        "url": "https://github.com/groruk"
+    },
+    "contributors": [
+        {
+            "name": "IceMan",
+            "email": "",
+            "url": "https://forums.alliedmods.net/showthread.php?t=252533"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/sbpp/theme-default/issues",
+        "email": "groruk@uberdoge.network"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sbpp/theme-default"
+    },
+    "private": true,
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "del": "^3.0.0",
+        "grunt": "~1.0.2",
+        "grunt-babel": "^7.0.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^2.2.1",
+        "grunt-contrib-imagemin": "^2.0.1",
+        "grunt-contrib-less": "^2.0.0",
+        "grunt-contrib-uglify": "^3.3.0",
+        "grunt-sass": "^2.1.0"
+    },
+    "dependencies": {}
+}
