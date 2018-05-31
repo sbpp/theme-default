@@ -8,6 +8,8 @@ before_install:
     - npm install -g grunt-cli
     - npm install
     - grunt
+    - mkdir deploy
+    - mv default deploy
 
 deploy:
     provider: pages
