@@ -14,7 +14,7 @@ before_install:
 deploy:
     provider: pages
     skip_cleanup: true
-    local_dir: default
+    local_dir: deploy
     github_token: $GITHUB_TOKEN
     keep-history: false
     target-branch: dist
